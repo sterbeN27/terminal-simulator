@@ -6,14 +6,17 @@ A concurrent program that is written in Java that simulates the operations in a 
 - JDK 1.8
 
 ## Screenshots:
-### Main page
-![image]()
+### Start
+![image](https://user-images.githubusercontent.com/57295193/128660031-8be8bf2b-7f65-4e28-a257-ddf30cfb8223.png)
 
-### Add new data
-![image]()
+### Machine out of order & Booth Staff go to toilet
+![image](https://user-images.githubusercontent.com/57295193/128660086-1252f71d-7d7b-4af6-8a2b-b7b7df494cec.png)
 
-### Edit existing data
-![image]()
+### Booth Staff came back
+![image](https://user-images.githubusercontent.com/57295193/128660132-3b1935c4-145f-4dfe-a3e2-41a9a4fd5329.png)
 
-### Remove existing data
-![image]()
+### Closing Time
+![image](https://user-images.githubusercontent.com/57295193/128660143-f6504523-6c4f-405c-9d74-eaa95071f28d.png)
+
+### Totally Closed
+![image](https://user-images.githubusercontent.com/57295193/128660156-48490468-b09a-4835-8caf-2d73acd2763f.png)
