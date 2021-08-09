@@ -52,7 +52,7 @@ public class TicketBooth extends Thread {
         }
         
         if (terminalClosed){
-            // Serving all the remaining customers
+            // Serving all the remaining customers if customers in terminal is not empty yet
             while (listBoothQueue.size()!=0 || !done){
                 try{
                     Thread.sleep(2000);
@@ -60,7 +60,7 @@ public class TicketBooth extends Thread {
                     // To do auto-generated catch block
                     e.printStackTrace();
                 }
-                System.out.println(terminal.getTime()+": TicketBooth-"+name+": "+ listBoothQueue.size()+" customer(s) left. Serving next customer...");
+                System.out.println(terminal.getTime()+": TicketBooth-"+name+": "+ listBoothQueue.size()+" customer(s) in the queue. Waiting for customers...");
                 serving();
             }
             System.out.println(terminal.getTime()+": TicketBooth-"+name+": no more customers, booth CLOSED!");

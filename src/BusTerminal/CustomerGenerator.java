@@ -18,6 +18,7 @@ class CustomerGenerator extends Thread {
     @Override
     public void run() {
         // ======== Run using number of customers ========
+        // SET CUSTOMERS LIMIT
         while (custId <= 150){
             Customer customer = new Customer(terminal);
             Thread thCustomer = new Thread(customer);
