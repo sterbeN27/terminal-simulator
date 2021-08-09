@@ -1,5 +1,5 @@
 # terminal-simulator
-A concurrent program that is written in Java that simulates the operations in a terminal bus.
+A Java concurrent program that simulates the operations in a terminal bus.
 
 ## Tools:
 - Netbeans IDE 8.2
